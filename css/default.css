@@ -24,6 +24,23 @@ header
     position: relative;
 }
 
+/*headline "LFG-robotics"*/
+header #headline
+{
+    color: #00b8e9;
+    font-family: "Poiret One";
+    font-size: 72px;
+    text-decoration: none;
+    text-shadow: 0px 0px 4px #00b8e9;
+    padding-left: 0.2em;
+}
+
+header #logo
+{
+    position: absolute;
+    right: 1em;
+}
+
 /*part with "nav"*/
 #lower-header
 {
@@ -45,6 +62,7 @@ header
     top: 0;
 }
 
+/*"student robotics"*/
 #lower-header p
 {
     font-family: "Poiret One";
@@ -73,23 +91,6 @@ header
 #lower-header ul li 
 {
     padding: 0.7em 0 0 0;
-}
-
-/*headline "LFG-robotics"*/
-header #headline
-{
-    color: #00b8e9;
-    font-family: "Poiret One";
-    font-size: 72px;
-    text-decoration: none;
-    text-shadow: 0px 0px 4px #00b8e9;
-    padding-left: 0.2em;
-}
-
-header #logo
-{
-    position: absolute;
-    right: 1em;
 }
 
 /*styles for every horizontal rule*/
@@ -134,6 +135,11 @@ hr
     {
         width: 750px;
     }
+    
+    #lower-header p
+    {
+        bottom: 0.8em;
+    }
 }
 
 @media screen and (max-width: 780px)
@@ -143,9 +149,23 @@ hr
         width: 97%;
     }
 
+    header #logo
+    {
+        position: relative;
+        left: 0;
+        width: 4em;
+    }
+
     header #logo img
     {
         width: 100%;
+        position: relative;
+    }
+    
+    #upper-header #headline
+    {
+        position: relative;
+        top:2.5em;
     }
 
     header
@@ -156,13 +176,19 @@ hr
     #upper-header
     {
         width: 100%;
+        height: 20em;
     }
 
     #lower-header
     {
         width: 100%;
     }
-
+    
+    #lower-header #fred-img
+    {
+        height: auto;
+    }
+    
     #lower-header #fred-img-nav
     {
         width: 100%;
@@ -175,7 +201,10 @@ hr
 
     #lower-header p
     {
-        width: 10em;
-        bottom: 0;
+        /*test*/
+        position: relative;
+        width: 100%;
+        text-align: left;
+        display: none;
     }
 }
