@@ -10,6 +10,10 @@
     font-size: 2em;
 }
 
+#welcome h2{
+    font-family: "Poiret One";
+}
+
 #welcome p
 {
     color: #666666;
@@ -21,8 +25,4 @@
     {
         width: 100%;
     }
-}
-
-#welcome h2{
-    font-family: "Poiret One";
 }
