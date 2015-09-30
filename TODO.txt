@@ -1,4 +1,2 @@
-1. Bilder
-2. Kontakt
-3. Sponsoren
-4. Responsive machen
+1. Kontakt stylen
+2. Responsive machen
