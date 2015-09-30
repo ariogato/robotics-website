@@ -1,0 +1,40 @@
+article
+{
+	width: 75%;	
+}
+
+/*headline*/
+article h1
+{
+	color: #00b8e2;
+    font-family: "Poiret One";
+    font-size: 2em;
+}
+
+/*main text*/
+article p
+{
+	color: #666666;
+}
+
+/*team-photo*/
+article img
+{
+	width: 70%;
+	position: relative;
+	left: 2em;
+}
+
+@media screen and (max-width: 780px)
+{
+    article
+    {
+        width: 100%;
+    }
+	
+	/*team-photo*/
+	article img
+	{
+		width: 75%;
+	}
+}
