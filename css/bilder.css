@@ -1,0 +1,35 @@
+#welcome
+{
+    width: 75%;
+}
+
+#welcome h1
+{
+    color: #00b8e2;
+    font-family: "Poiret One";
+    font-size: 2em;
+}
+
+#welcome h2{
+    font-family: "Poiret One";
+}
+
+#welcome p
+{
+    color: #666666;
+}
+
+@media screen and (max-width: 780px)
+{
+    #welcome
+    {
+        width: 100%;
+    }
+<<<<<<< Updated upstream
+=======
+}
+
+#welcome h2{
+    font-family: "Poiret One"; /*  Für die Überschriften im Impressum    */
+>>>>>>> Stashed changes
+}
