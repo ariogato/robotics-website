@@ -10,10 +10,6 @@
     font-size: 2em;
 }
 
-#welcome h2{
-    font-family: "Poiret One";
-}
-
 #welcome p
 {
     color: #666666;
@@ -25,11 +21,12 @@
     {
         width: 100%;
     }
-<<<<<<< Updated upstream
-=======
 }
 
 #welcome h2{
-    font-family: "Poiret One"; /*  Für die Überschriften im Impressum    */
->>>>>>> Stashed changes
+    font-family: "Poiret One";
+}
+
+table#goenner{
+    border-spacing: 2em;
 }
