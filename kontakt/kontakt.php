@@ -137,14 +137,14 @@
                 if(isset($_POST["submit"]) && !$_POST["email"])
                 {
                         //setting up an error
-                        $err_nachname = true;
+                        $err_mail = true;
                 }
                 
                 //checking if everything is filled out properly
                 if(isset($_POST["submit"]) && $_POST["vorname"] && $_POST["nachname"] && $_POST["email"])
                 {
                     //creating the message
-                    $msg .= $_POST["vorname"] . $_POST["nachname"] . ", mit der Email-adresse:\"" . $_POST["email"] . "\" und der Telefonnummer:" . $_POST["telefon"] .  "hat folgende Nachricht hinterlassen \"" . $_POST["nachricht"] . "\"";
+                    $msg .= $_POST["vorname"] . $_POST["nachname"] . ", mit der Email-adresse:\"" . $_POST["email"] . "\" und der Telefonnummer: \"" . $_POST["telefon"] .  "\", hat folgende Nachricht hinterlassen \"" . $_POST["nachricht"] . "\"";
                     
                     //sending an email
                     mail($empf, $betreff, $msg);
@@ -225,9 +225,7 @@
                         <h1>Nachricht</h1>
                         
                         <!--input-->
-                        <textarea id="nachricht-t">
-                            <?php if(isset($_POST["nachricht"])){echo $_POST["nachricht"];} ?>Meine Nachricht
-                        </textarea>
+                        <textarea id="nachricht-t"><?php if(isset($_POST["nachricht"])){echo $_POST["nachricht"];} ?>Meine Nachricht</textarea>
                         
                     </div><!--end of "nachricht"-->
                     
