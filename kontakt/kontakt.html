@@ -203,7 +203,7 @@
                         <h1 <?php if($err_email == true){echo 'style="color: red"';} ?>>E-mail*</h1>
                         
                         <!--input-->
-                        <input id="nachname-t" name="nachname" type="text" value="<?php if(isset($_POST["email"])){echo $_POST["email"];} ?>" />
+                        <input id="email-t" name="email" type="text" value="<?php if(isset($_POST["email"])){echo $_POST["email"];} ?>" />
                         
                     </div><!--end of "email"-->
                     
@@ -214,7 +214,7 @@
                         <h1>Telefon</h1>
                         
                         <!--input-->
-                        <input id="telefon" name="telefon" type="text" value="<?php if(isset($_POST["telefon"])){echo $_POST["telefon"];} ?>" />
+                        <input id="telefon-t" name="telefon" type="text" value="<?php if(isset($_POST["telefon"])){echo $_POST["telefon"];} ?>" />
                         
                     </div><!--end of "telefon"-->
                     
@@ -225,7 +225,7 @@
                         <h1>Nachricht</h1>
                         
                         <!--input-->
-                        <textarea id="nachricht">
+                        <textarea id="nachricht-t">
                             <?php if(isset($_POST["nachricht"])){echo $_POST["nachricht"];} ?>Meine Nachricht
                         </textarea>
                         
