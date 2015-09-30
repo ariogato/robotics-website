@@ -1,0 +1,28 @@
+#welcome
+{
+    width: 75%;
+}
+
+#welcome h1
+{
+    color: #00b8e2;
+    font-family: "Poiret One";
+    font-size: 2em;
+}
+
+#welcome p
+{
+    color: #666666;
+}
+
+@media screen and (max-width: 780px)
+{
+    #welcome
+    {
+        width: 100%;
+    }
+}
+
+#welcome h2{
+    font-family: "Poiret One";
+}
