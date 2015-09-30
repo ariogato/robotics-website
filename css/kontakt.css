@@ -1,0 +1,35 @@
+article
+{
+	width: 75%;	
+}
+
+/*headline*/
+article h1
+{
+	color: #00b8e2;
+    font-family: "Poiret One";
+    font-size: 2em;
+}
+
+/*main text*/
+article p
+{
+	color: #666666;
+}
+
+#nachricht-t
+{
+	height: 10em;
+	width: 20em;
+	color: #808080;
+	resize: none;
+}
+
+
+@media screen and (max-width: 780px)
+{
+    article
+    {
+        width: 100%;
+    }
+}
