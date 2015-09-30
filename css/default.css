@@ -69,10 +69,10 @@ header #logo
     font-family: "Poiret One";
     color: #fff;
     font-size: 2.5em;
-    width: 8em;
+    width: 6em;
     position: absolute;
     bottom: -0.2em;
-    right: -1em;
+    right: 0em;
 }
 
 /*nav link items*/
@@ -99,6 +99,25 @@ hr
 {
     border: none;
     border-top: 1px dashed #00b8e9;
+}
+
+footer ul 
+{
+    width: 50%;
+    padding: 0;
+}
+
+footer ul li
+{
+    display: inline;
+    margin: 1em 1em 1em 1em;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #00B8E9;
+    font-size: 16px;
 }
 
 /*media query for 1200px width*/
@@ -144,7 +163,7 @@ hr
     
     #lower-header p
     {
-        bottom: 0.8em;
+        bottom: 0;
     }
 }
 
@@ -155,16 +174,17 @@ hr
         width: 97%;
     }
 
-    header #logo
+    header #logo 
     {
         position: relative;
         left: 0;
         width: 4em;
+        height: auto;
     }
 
     header #logo img
     {
-        width: 50%;
+        width: 10em;
     }
     
     #upper-header #headline
