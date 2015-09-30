@@ -2,30 +2,24 @@
 <html>
 	<head>
 		<!--title for the page-->
-		<title>Homepage der LFG-robotics - Youtube </title>
+		<title>Homepage der LFG-robotics - Impressum</title>
 		
 		<!--charset-->
 		<meta charset="UTF-8" />
 		
 		<!--linking to the stylesheets-->
         <link rel="stylesheet" href="../css/default.css" />
-		<link rel="stylesheet" href="../css/home.css" />
-        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
-        <link rel="stylesheet" href="../jquery-ui.css" />
+		<link rel="stylesheet" href="../css/impressum.css" />
+        
+        <!--linking to jquery-->
+        <script src="jquery/jquery-2.1.4.js"></script>
         
 		<!--General Information about the site-->
 		<meta name="author" content="Ario Dastmaltschi & Ben Stickelbrucks" />
 		<meta name="describtion" content="Vorstellung des student-robotics Teams vom Lion-Feuchtwanger-Gymnasium in München." />
-		<meta name="keywords" content="" /> <!--Ario ist Gay-->
+		<meta name="keywords" content="student robotics, lfg, team-lfg, roboter" /> 
 
         <!--script for including the font "poiret one"-->
-        <script src="../jquery/jquery-ui.js"></script>
-        <script src="../jquery/jquery-2.1.4.js"></script>
-        <script>
-         $(function() {
-                 $( "#accordion" ).accordion({collapsible: true});                  
-        });
-        </script>
         <script type="text/javascript">
   WebFontConfig = {
     google: { families: [ 'Poiret+One::latin' ] }
@@ -38,12 +32,13 @@
     wf.async = 'true';
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(wf, s);
-  })(); 
-        </script>
+  })(); </script>
 
 	</head>
 	<body>
         <div id="wrapper">
+            
+            <!--copy into every-->
             <header>
 
                 <!--part with "headline" & "logo"-->
@@ -105,36 +100,54 @@
                     <article id="welcome">
                         
                         <!--welcome headline-->
-                        <h1>Videos uneseres YouTube-Auftritts</h1>
+                        <h1>Impressum</h1>
                         
-                        <!-- YT-VODs-->
-                        <div id="accordion">
-                            <h3>
-                                Team LFG at the SR-Competition 2015
-                            </h3>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/zmVZm_JAipA" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <h3>                            
-                                Team LFG at the SR Competition | Day 1 
-                            </h3>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/04CaYvVyEss" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <h3>
-                                Team LFG at the SR Competition | Day 2 
-                            </h3>
-                            <div>
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/TqQr0xMDHHU" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>                        
+                        <!--Impresssum Content-->
+                        <div>
+							<h2> Verantwortlich: </h2> 
+
+                                <p>Frau Daniela Ringleben</br>
+                                Städtisches Lion-Feuchtwanger-Gymnasium</br>
+                                Freiligrathstr. 71</br>
+                                80807 München</br>
+                                Telefon: 350 301 - 0</br>
+                                Telefax: 350 301 - 40</br>
+                                E-Mail: lion-feuchtwanger-gymnasium@muenchen.de</br>
+                                </p>      
+                                <h2>Copyright:</h2> 
+                                <p>Die Rechte für alle Bilder,Texte und sonstigen Bestandteile und Inhalte liegen bei dem jeweiligen Verfasser bzw. beim Städt. Lion-Feuchtwanger-Gymnasium. Jegliche Verwendung von Inhalten dieser Homepage für Druck, Webseiten oder sonstige Medien ist nur mit ausdrücklicher Genehmigung der Rechteinhaber bzw. des Städt. Lion-Feuchtwanger-Gymnasiums zulässig.
+                                </br>Website und Fotos:
+                                 </p>
+                                    <ul style="list-style-type: none;">
+                                        <li>
+                                            Website: Ario Dastmaltschi, Ben Stickelbrucks 
+                                        </li>
+                                        <li>
+                                            Design, Fotos: Daniela Ringleben, Florian Roth 
+                                        </li>
+                                    </ul>     
+
+                        </div>
                         
                     </article>
+                    
+                    <!--if needed, uncomment-->
+                    <!--
+                    <aside>
+                        
+                    </aside>
+                    -->
+                    
                 </section>
             </main>
             
+            <!--also copy into every file-->
             <footer>
+                
+                <!--separating main from footer-->
                 <hr />
+                
+                <!--the footer avec les links-->
                 <ul>
                     <li><a href="">Startseite</a></li>
                     <li><a href="sr/sr.html">Student Robotics</a></li>
