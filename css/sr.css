@@ -1,0 +1,47 @@
+article
+{
+	width: 75%;	
+}
+
+/*headline*/
+article h1
+{
+	color: #00b8e2;
+    font-family: "Poiret One";
+    font-size: 2em;
+}
+
+/*main text*/
+article p
+{
+	color: #666666;
+}
+
+/*student-robotics logo*/
+#sr-link img
+{
+	width: 6em;
+	height: auto;
+}
+
+/*link to sr-homepage*/
+#sr-link a
+{
+	position: relative;
+	bottom: 1em;
+	text-decoration: none;
+	color: #00b8e2;
+}
+
+#sr-link a:hover
+{
+	color: #00669c;
+}
+
+@media screen and (max-width: 780px)
+{
+    article
+    {
+        width: 100%;
+    }
+}
