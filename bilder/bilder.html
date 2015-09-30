@@ -2,17 +2,17 @@
 <html>
 	<head>
 		<!--title for the page-->
-		<title>Homepage der LFG-robotics - Über uns</title>
+		<title>Homepage der LFG-robotics - Impressum</title>
 		
 		<!--charset-->
 		<meta charset="UTF-8" />
 		
 		<!--linking to the stylesheets-->
         <link rel="stylesheet" href="../css/default.css" />
-		<link rel="stylesheet" href="../css/ueberuns.css" />
+		<link rel="stylesheet" href="../css/bilder.css" />
         
         <!--linking to jquery-->
-        <script src="../jquery/jquery-2.1.4.js"></script>
+        <script src="jquery/jquery-2.1.4.js"></script>
         
 		<!--General Information about the site-->
 		<meta name="author" content="Ario Dastmaltschi & Ben Stickelbrucks" />
@@ -38,7 +38,7 @@
 	<body>
         <div id="wrapper">
             
-            <!--copy into every file-->
+            <!--copy into every-->
             <header>
 
                 <!--part with "headline" & "logo"-->
@@ -75,12 +75,12 @@
                             <ul>
                                 <li><a href="../index.html">Startseite</a></li>
                                 <li><a href="../sr/sr.html">Student Robotics</a></li>
-                                <li><a href="">Über uns</a></li>
+                                <li><a href="../ueberuns/ueberuns.html">Über uns</a></li>
                                 <li><a href="../YT/YT.html">YouTube</a></li>
                                 <li><a href="../bilder/bilder.html">Bilder</a></li>
                                 <li><a href="../sponsoren/sponsoren.html">Sponsoren</a></li>
                                 <li><a href="../kontakt/kontakt.php">Kontakt</a></li>
-                                <li><a href="../impressum/impressum.html">Impressum</a></li>
+                                <li><a href="">Impressum</a></li>
                             </ul>
                         </nav>
 
@@ -91,31 +91,60 @@
                 </div><!--end of "lower-header"-->
             </header>
             
-            <!--separating header grom main-->
-            <hr/>
+            <!--separating header from main-->
+            <hr />
             
-            <!--main content-->
+            <!--main content of the page-->
             <main>
                 <section>
-                    <article>
+                    <article id="welcome">
                         
-                        <!--headline-->
-                        <h1>Über uns</h1>
+
+                      <h1>Fotos</h1>
                         
-                        <!--main text-->
-                        <p>
-                            2015 hat das Team zum zweiten Mal mit sehr großem Erfolg an diesem Wettbewerb teilgenommen. In den Vorrunden belegte das Team den 8. von insgesamt 50 Plätzen, bei den Endrunden mussten sie sich leider im Viertelfinale geschlagen geben.<br/><br/>Angespornt von den sehr guten Ergebnissen und dem Spaß wurden bereits am Veranstaltungsort Pläne für das nächste Jahr geschmiedet.<br/><br/>Mit einer mehr als ausgeklügelten Strategie und einer viel strukturierteren Planung, einer Testarena in der Schule und einer zeitnahen Reiseplanung sind sie nun bereit für den Angriff :-)<br/><br/>Das know-how haben sie sich ganz selbständig angeeignet, die Planungsstrategien sind den Schülern aus dem Informatik-Unterricht der Oberstufe bekannt. Programmiert wird in der Programmiersprache Python.<br/><br/>Geschult wird nicht nur das selbständige Arbeiten, die Projektplanung sondern im großen Maße das Teamwork. Eine bessere Vorbereitung für die Zukunft kann es gar nicht geben.<br/><br/>Die Motivation, den Kampfgeist und den Ehrgeiz, all das erleben die Schüler an den Tagen des Wettbewerbs in einem so großen Maße, was niemals in einem normalen Schulalltag erreicht werden kann.<br/><br/>Für die grobe Planung und Organisation steht dem Team Fr. Ringleben zur Seite. Sie ist Informatik- und Mathematik- Lehrerin am Lion-Feuchtwanger-Gymnasium. Bereits während ihres Studiums war sie beim Robocup-Wettbewerb aktiv sowohl als Leitung mehrerer Schülerteams als auch als Schiedsrichterin bei einer Weltmeisterschaft. Sie unterstützt beim kommenden Wettbewerb das Team zum zweiten Mal.<br/><br/>Das sind wir beim Wettbewerb 2015:<br/><br/>
-                        </p>
+                        <!--Bilder-->
+                        <div>
+							<table>
+                                <tr>
+                                    <td>
+                                       <img src="../images/bilder1.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>
+                                    <td>
+                                        <img src="../images/bilder2.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>
+                                     <td>
+                                         <img src="../images/bilder3.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>                                                                       
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img src="../images/bilder4.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>
+                                    <td>
+                                        <img src="../images/bilder5.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>
+                                     <td>
+                                         <img src="../images/bilder6.png" width="250" height="250" alt="Ein fehler ist aufgetreten">
+                                    </td>                                                                       
+                                </tr>                                
+                            </table>
+                        </div>
                         
-                        <!--team photo-->
-                        <img src="../images/team.jpeg" alt="team-photo"/>
-                                                
                     </article>
+                    
+                    <!--if needed, uncomment-->
+                    <!--
+                    <aside>
+                        
+                    </aside>
+                    -->
+                    
                 </section>
             </main>
             
+            <!--also copy into every file-->
             <footer>
-                 
+                
                 <!--separating main from footer-->
                 <hr />
                 
@@ -123,14 +152,15 @@
                 <ul>
                     <li><a href="../index.html">Startseite</a></li>
                     <li><a href="../sr/sr.html">Student Robotics</a></li>
-                    <li><a href="">Über uns</a></li>
+                    <li><a href="../ueberuns/ueberuns.html">Über uns</a></li>
                     <li><a href="../YT/YT.html">YouTube</a></li>
-                    <li><a href="../bilder/bilder.html">Bilder</a></li>
+                    <li><a href="#">Bilder</a></li>
                     <li><a href="../sponsoren/sponsoren.html">Sponsoren</a></li>
                     <li><a href="../kontakt/kontakt.php">Kontakt</a></li>
                     <li><a href="../impressum/impressum.html">Impressum</a></li>
                 </ul>
-                
             </footer>
-        </div><!--end of the wrapper-->
-	</body>
+            
+        </div><!--end of "wrapper"-->
+	</body>	
+</html>
