@@ -15,18 +15,18 @@
     color: #666666;
 }
 
-@media screen and (max-width: 780px)
-{
-    #welcome
-    {
-        width: 100%;
-    }
-}
-
 #welcome h2{
     font-family: "Poiret One";
 }
 
 table#goenner{
     border-spacing: 2em;
+}
+
+@media screen and (max-width: 780px)
+{
+    #welcome
+    {
+        width: 100%;
+    }
 }
