@@ -10,23 +10,19 @@
 		<!--linking to the stylesheets-->
         <link rel="stylesheet" href="../css/default.css" />
 		<link rel="stylesheet" href="../css/home.css" />
-        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>
-        <link rel="stylesheet" href="../jquery-ui.css" />-->
-        
-		<!--General Information about the site-->
+        <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"/>-->
+       <!-- <link rel="stylesheet" href="../jquery/jquery-ui.css" /> -->
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css"> 
+		<!--General Information about the site / Manche .js und Stylesheets werden Testweise von googleapis bezogen-->
 		<meta name="author" content="Ario Dastmaltschi & Ben Stickelbrucks" />
 		<meta name="describtion" content="Vorstellung des student-robotics Teams vom Lion-Feuchtwanger-Gymnasium in München." />
 		<meta name="keywords" content="" /> <!--Ario ist Gay-->
 
         
-        <!--<script src="../jquery/jquery-ui.js"></script>-->
-        <script src="../jquery/jquery-2.1.4.js"></script>
-        <!--<script>
-         $(function() {
-                 $( "#accordion" ).accordion({collapsible: true});                  
-        });
-        </script>-->
-        
+       <!-- <script src="../jquery/jquery-ui.js"></script>
+        <script src="../jquery/jquery-2.1.4.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
         <!--script for including the font "poiret one"-->
         <script type="text/javascript">
   WebFontConfig = {
@@ -130,7 +126,12 @@
                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/TqQr0xMDHHU" frameborder="0" allowfullscreen></iframe>
                             </div>
                         </div>                        
-                        
+                                <script>
+         $(document).ready(function() {
+                 $( "#accordion" ).accordion({collapsible: true});                  
+        });
+        </script>
+        
                     </article>
                 </section>
             </main>
