@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!--title for the page-->
-		<title>Homepage der LFG-robotics - Impressum</title>
+		<title>Homepage der LFG-robotics - Bilder</title>
 		
 		<!--charset-->
 		<meta charset="UTF-8" />
@@ -12,8 +12,9 @@
 		<link rel="stylesheet" href="../css/bilder.css" />
         
         <!--linking to jquery-->
-        <script src="../jquery/jquery-2.1.4.js"></script>
-        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../jquery/jquery.elevatezoom.js"></script>
+       
 		<!--General Information about the site-->
 		<meta name="author" content="Ario Dastmaltschi & Ben Stickelbrucks" />
 		<meta name="describtion" content="Vorstellung des student-robotics Teams vom Lion-Feuchtwanger-Gymnasium in München." />
@@ -102,7 +103,7 @@
 
                       <h1>Fotos</h1>
                         
-                        <!--Bilder-->
+                        <!--Bilder-Table(stable)-->
                         <div>
 							<table>
                                 <tr>
@@ -130,6 +131,7 @@
                             </table>
                         </div>
                         
+                        
                     </article>
                     
                     <!--if needed, uncomment-->
@@ -138,7 +140,29 @@
                         
                     </aside>
                     -->
-                    
+                    <!-- Image Gallery with elevateZoom(unstable)
+                    <img id="img_01" src="http://placehold.it/250x250" data-zoom-image="http://placehold.it/500x500"/> 
+                    <div id="gal1">
+                           <a href="#" data-image="../images/bilder1.png" data-zoom-image="../images/bilder1G.png"> <img id="img_01" src="../images/bilder1.png" width="100" height="100" />  </a>
+                           <a href="#" data-image="../images/bilder2.png" data-zoom-image="../images/bilder2G.png"> <img id="img_01" src="../images/bilder2.png" width="100" height="100" /> </a>
+                           <a href="#" data-image="../images/bilder3.png" data-zoom-image="../images/bilder3G.png"> <img id="img_01" src="../images/bilder3.png" width="100" height="100" /> </a> 
+                           <a href="#" data-image="../images/bilder4.png" data-zoom-image="../images/bilder4G.png"> <img id="img_01" src="../images/bilder4.png" width="100" height="100" /> </a> 
+                           <a href="#" data-image="../images/bilder5.png" data-zoom-image="../images/bilder5G.png"> <img id="img_01" src="../images/bilder5.png" width="100" height="100" /> </a> 
+                           <a href="#" data-image="../images/bilder6.png" data-zoom-image="../images/bilder6G.png"> <img id="img_01" src="../images/bilder6.png" width="100" height="100" /> </a> 
+                   </div> 
+                    <script type="text/javascript">
+                      
+                        $(document).ready(function () {
+                        $("#zoom_03").elevateZoom({gallery:'gallery_01', cursor: 'pointer', galleryActiveClass: "active", imageCrossfade: true, loadingIcon: "http://www.elevateweb.co.uk/spinner.gif"}); 
+                        
+                        $("#zoom_03").bind("click", function(e) {  
+                        var ez =   $('#zoom_03').data('elevateZoom');
+                        ez.closeAll(); //NEW: This function force hides the lens, tint and window	
+                            $.fancybox(ez.getGalleryList());
+                        return false;
+                        }); 
+                        });
+                        </script> -->
                 </section>
             </main>
             

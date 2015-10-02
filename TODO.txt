@@ -1,7 +1,3 @@
-1. Bilder
-3. Sponsoren
-4. Responsive machen
-1. Twitter-Feed
-2. Kontakt stylen
-3. Responsive machen
-4. Bilder.html Album
+1. Kontakt stylen
+2. Responsive machen
+3. Bilder.html Album (unstable version fixen)
