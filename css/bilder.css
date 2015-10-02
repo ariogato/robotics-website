@@ -25,11 +25,12 @@
     {
         width: 100%;
     }
-<<<<<<< Updated upstream
-=======
+
+
 }
 
 #welcome h2{
     font-family: "Poiret One"; /*  Für die Überschriften im Impressum    */
->>>>>>> Stashed changes
+
 }
+#gal1 img{border:2px solid white;}

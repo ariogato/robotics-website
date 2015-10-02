@@ -10,13 +10,17 @@
     font-size: 2em;
 }
 
+#welcome p
+{
+    color: #666666;
+}
+
 #welcome h2{
     font-family: "Poiret One";
 }
 
-#welcome p
-{
-    color: #666666;
+table#goenner{
+    border-spacing: 2em;
 }
 
 @media screen and (max-width: 780px)
@@ -25,11 +29,4 @@
     {
         width: 100%;
     }
-
-
-}
-
-#welcome h2{
-    font-family: "Poiret One"; /*  Für die Überschriften im Impressum    */
-
 }
