@@ -1,3 +1,6 @@
 1. Kontakt stylen
 2. Responsive machen
-3. Bilder.html Album (unstable version fixen)
+3. Bilder.html Album (unstable version fixen
+4. sn.html FB feed
+5. Wenn nötig selber die twitter page betreuen
+6.sn.html mit YT.html zusammen FÜHREN?
