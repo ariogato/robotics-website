@@ -4,4 +4,4 @@
 4. sn.html FB feed
 5. Wenn nötig selber die twitter page betreuen
 6. sn.html mit YT.html zusammen FÜHREN?
-7. YT.html Accordeon stylen?
+7. YT.html Accordeon stylen/biler.html Tabs stylen(aka New jquery UI theme)?
