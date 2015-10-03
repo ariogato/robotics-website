@@ -152,7 +152,14 @@
                             <script>
                             $(function() {
                                 $( "#tabs" ).tabs({
-                                collapsible: true, active: false
+                                collapsible: true, active: false, heightStyle: "content",       
+                                beforeLoad: function( event, ui ) { /*Handles AJAX loading*/
+                                ui.jqXHR.fail(function() {
+                                ui.panel.html(
+                                    "Couldn't load this tab. We'll try to fix this as soon as possible. " 
+                          );
+                                });
+                            }
                                 });
                             });
                             </script>
