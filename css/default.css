@@ -89,6 +89,7 @@ nav ul
 /*nav link items*/
 #lower-header ul li a
 {
+    /* Not needed anymore, but kept in here something breaks*/
     color: #00b8e9;
     text-decoration: none;
     font-size: 1.2em;
@@ -100,6 +101,7 @@ nav ul
 }
 
 .hvr-underline-from-left {
+  /*should explain itself*/
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
@@ -110,6 +112,7 @@ nav ul
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
+  /*Font-famili and -weight for The navbar*/
   font-family: "TrebuchetMS";
   font-weight: 900;
 }
