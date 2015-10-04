@@ -10,6 +10,8 @@
 		<!--linking to the stylesheets-->
         <link rel="stylesheet" href="../css/default.css" />
 		<link rel="stylesheet" href="../css/kontakt.css" />
+        <!--Favicon-->
+        <link rel="icon" href="../images/robotics-logo-fav.ico" type="image/vnd.microsoft.icon">
         
         <!--linking to jquery-->
         <script src="../jquery/jquery-2.1.4.js"></script>
