@@ -112,9 +112,6 @@ nav ul
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow: hidden;
-  /*Font-famili and -weight for The navbar*/
-  font-family: "TrebuchetMS";
-  font-weight: 900;
 }
 .hvr-underline-from-left:before {
   content: "";
