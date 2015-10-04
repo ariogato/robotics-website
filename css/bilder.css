@@ -26,11 +26,13 @@
         width: 100%;
     }
 
-
 }
 
-#welcome h2{
+#welcome h2
+{
     font-family: "Poiret One"; /*  Für die Überschriften im Impressum    */
-
 }
-#gal1 img{border:2px solid white;}
+#gal1 img
+{
+    border:2px solid white;
+}
